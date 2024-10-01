@@ -1,0 +1,45 @@
+body {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  resize: both;
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  resize: both;
+  width: 70%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+div p#tbox {
+  color: darkred;
+}
+
+.box {
+  border: solid orange 5px;
+  align-items: center;
+}
+
+#tbox {
+  resize: both;
+  width: 300px;
+  border: solid orange 5px;
+  text-decoration: underline 1px;
+  text-align: center;
+  background-color: orange;
+}
+
+
